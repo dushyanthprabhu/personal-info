@@ -1,0 +1,17 @@
+.main-container{
+    display: flex;
+    .left-container{
+        margin: 30px;
+        width: 50%;
+        background-color: aliceblue;
+        border-radius: 10px;
+        height: 80vh;
+    }
+    .left-container:hover{
+        box-shadow: 10px 10px 30px black;
+        transition: 400ms;
+    }
+    .right-container{
+        width: 100%;
+    }
+}
